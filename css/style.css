@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+.container-header {
+    height: 40px;
+    width: 100%;
+    justify-content: space-between;
+    /* debug */
+    background-color: greenyellow;
+}
+
+.left-header {
+    height: 40px;
+    width: 34%;
+    /* debug */
+    background-color: lightcoral;
+    border: 2px solid black;
+}
+
+.right-header {
+    height: 40px;
+    width: 40%;
+    /* debug */
+    background-color: lightcoral;
+    border: 2px solid black;
+}
+/* /HEADER */
+
+/* Utility */
+.flex {
+    display: flex;
+}
