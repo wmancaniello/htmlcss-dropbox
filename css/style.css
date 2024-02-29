@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* HEADER */
 .container-header {
-    height: 40px;
+    height: 60px;
     width: 100%;
     justify-content: space-between;
     /* debug */
@@ -14,7 +18,7 @@
 }
 
 .left-header {
-    height: 40px;
+    height: 60px;
     width: 34%;
     /* debug */
     background-color: lightcoral;
@@ -22,7 +26,7 @@
 }
 
 .right-header {
-    height: 40px;
+    height: 60px;
     width: 40%;
     /* debug */
     background-color: lightcoral;
@@ -197,8 +201,8 @@
     border: 1px dashed black;
 }
 /* /designit */
-/* company */
 
+/* company */
 .company-box {
     height: 300px;
     width: 100%;
@@ -223,11 +227,58 @@
     background-color: lightskyblue;
     border: 2px dashed black;
 }
-
-
 /* /company */
+
+/* answer */
+.answer-box {
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: blueviolet;
+}
+
+.answer-section {
+    height: 400px;
+    width: 70%;
+    /* debug */
+    background-color: crimson;
+    border: 2px dashed white;
+}
+/* /answer */
 /* /THIRD SECTION */
 /* /MAIN */
+
+/* FOOTER */
+.container-footer {
+    height: 450px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: black;
+}
+
+.container-list {
+    height: 420px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: white;
+}
+
+.col-footer {
+    width: calc(100% / 6);
+    height: 400px;
+    margin: 5px;
+    background-color: green;
+    border: 2px solid red;
+}
+/* /FOOTER */
+
+
 /* Utility */
 .flex {
     display: flex;
