@@ -29,6 +29,23 @@
     border: 2px solid black;
 }
 /* /HEADER */
+.first-container {
+    height: 500px;
+    width: 100%;
+    justify-content: center;
+    align-items: end;
+    /* debug */
+    background-color: lightcoral;
+    border: 2px solid black;
+}
+
+.first-box {
+    height: 400px;
+    width: 70%;
+    /* debug */
+    background-color: lightblue;
+}
+
 
 /* Utility */
 .flex {
