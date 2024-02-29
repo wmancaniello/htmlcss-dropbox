@@ -52,7 +52,7 @@
 
 /* big section main */
 .container-main {
-    min-height: 2100px;
+    min-height: auto;
     width: 100%;
     justify-content: center;
     padding-top: 80px;
@@ -64,7 +64,7 @@
     min-height: 800px;
     width: 50%;
     /* debug */
-    background-color: blueviolet;
+    background-color: white;
 }
 
 .price-list {
@@ -117,7 +117,116 @@
 
 /* /TEAM */
 
+/* PARTNER */
+.partner-box {
+    margin-top: 60px;
+    height: 500px;
+    width: 100%;
+    /* debug */
+    background-color: lightblue;
+}
+
+.partner-section-left {
+    height: 500px;
+    width: 70%;
+    /* debug */
+    background-color: lightcoral;
+    border: 2px dashed black;
+}
+
+.partner-section-right {
+    height: 500px;
+    width: 30%;
+    /* debug */
+    background-color: lightskyblue;
+    border: 2px dashed black;
+}
+/* /PARTNER */
+
+/* BUSINESS */
+.title-business {
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.business-box {
+    height: 900px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* debug */
+    background-color: aqua;
+}
+
+.col-30-business {
+    width: calc(100% / 3);
+    padding: 30px;
+    /* debug */
+    border: 1px dashed black;
+}
+
+.discovery-clients {
+    height: 250px;
+    width: 60%;
+    margin-top: 50px;
+    /* debug */
+    background-color: lightcoral;
+}
+/* /BUSINESS */
 /* /big section main */
+
+/* THIRD SECTION */
+
+/* designit */
+.container-designit {
+    justify-content: center;
+    padding-top: 20px;
+    /* debug */
+    background-color: green;
+}
+.designit {
+    height: 500px;
+    width: 95%;
+    /* debug */
+    background-color: lightskyblue;
+}
+
+.box-30 {
+    width: calc(100% / 3);
+    /* debug */
+    border: 1px dashed black;
+}
+/* /designit */
+/* company */
+
+.company-box {
+    height: 300px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    /* debug */
+    background-color: lightblue;
+}
+
+.company-section-left {
+    height: 200px;
+    width: 50%;
+    /* debug */
+    background-color: lightcoral;
+    border: 2px dashed black;
+}
+
+.company-section-right {
+    height: 200px;
+    width: 20%;
+    /* debug */
+    background-color: lightskyblue;
+    border: 2px dashed black;
+}
+
+
+/* /company */
+/* /THIRD SECTION */
 /* /MAIN */
 /* Utility */
 .flex {
