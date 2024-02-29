@@ -18,7 +18,7 @@
     width: 34%;
     /* debug */
     background-color: lightcoral;
-    border: 2px solid black;
+    border: 2px dashed black;
 }
 
 .right-header {
@@ -26,9 +26,12 @@
     width: 40%;
     /* debug */
     background-color: lightcoral;
-    border: 2px solid black;
+    border: 2px dashed black;
 }
 /* /HEADER */
+
+/* MAIN */
+/* under header */
 .first-container {
     height: 500px;
     width: 100%;
@@ -36,7 +39,7 @@
     align-items: end;
     /* debug */
     background-color: lightcoral;
-    border: 2px solid black;
+    border: 2px dashed black;
 }
 
 .first-box {
@@ -45,8 +48,77 @@
     /* debug */
     background-color: lightblue;
 }
+/* /under-header */
 
+/* big section main */
+.container-main {
+    min-height: 2100px;
+    width: 100%;
+    justify-content: center;
+    padding-top: 80px;
+    /* debug */
+    background-color: lightgreen;
+}
 
+.container-main2{
+    min-height: 800px;
+    width: 50%;
+    /* debug */
+    background-color: blueviolet;
+}
+
+.price-list {
+    height: 80px;
+    width: 100%;
+    /* debug */
+    background-color: lightcoral;
+    border: 2px dashed black;
+}
+
+/* SECTION COLUMNS */
+.container-column {
+    height: 600px;
+    width: 100%;
+    justify-content: space-between;
+    /* debug */
+    background-color: aqua;
+}
+
+.col-30 {
+    width: calc(90% / 3);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* debug */
+    border: 1px dashed black;
+}
+/* /SECTION COLUMNS */
+
+/* TEAM */
+.team-box {
+    height: 300px;
+    width: 100%;
+    /* debug */
+    background-color: lightcoral;
+}
+
+.team-title{
+    height: 60px;
+    width: 100%;
+    /* debug */
+    border: 2px dashed black;
+}
+
+.team-body {
+    height: 240px;
+    width: 100%;
+    /* debug */
+    border: 2px dashed black;
+}
+
+/* /TEAM */
+
+/* /big section main */
+/* /MAIN */
 /* Utility */
 .flex {
     display: flex;
