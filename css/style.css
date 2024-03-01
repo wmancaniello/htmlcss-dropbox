@@ -373,29 +373,31 @@ li{
 
 /* FOOTER */
 .container-footer {
-    height: 450px;
     width: 100%;
+    padding-bottom: 50px;
     justify-content: center;
     align-items: center;
-    /* debug */
     background-color: black;
+    /* debug */
+    /* height: 450px; */
 }
 
 .container-list {
-    height: 420px;
     width: 80%;
-    justify-content: center;
-    align-items: center;
     /* debug */
-    background-color: white;
+    /* height: 420px; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: white; */
 }
 
 .col-footer {
-    width: calc(100% / 6);
-    height: 400px;
-    margin: 5px;
-    background-color: green;
-    border: 2px solid red;
+    width: calc(100% / 5);
+    /* debug */
+    /* height: 400px; */
+    /* background-color: green; */
+    /* margin: 5px; */
+    /* border: 2px solid red; */
 }
 /* /FOOTER */
 
@@ -452,6 +454,10 @@ li{
 .blue {
     color: #0061ff;
     font-weight: 1000;
+}
+
+.white {
+    color: white;
 }
 
 .mgt-20 {
