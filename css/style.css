@@ -4,8 +4,32 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 a {
     text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1{
+    font-size: 4.50rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li{
+    margin-top: 20px;
 }
 
 /* HEADER */
@@ -35,24 +59,48 @@ a {
 /* /HEADER */
 
 /* MAIN */
-/* under header */
+
+/* FIRST SECTION */
 .first-container {
-    height: 500px;
     width: 100%;
+    padding-top: 50px;
     justify-content: center;
     align-items: end;
     /* debug */
-    background-color: lightcoral;
-    border: 2px dashed black;
+    /* height: 500px; */
+    background-color: #b6d1e7;
+}
+
+.box-container {
+    width: 60%;
 }
 
 .first-box {
+    width: 100%;
+    /* debug */
+    /* height: 400px; */
+}
+
+.first-box-left {
+    width: 30%;
+    /* debug */
+    /* height: 400px; */
+    /* background-color: lightcoral; */
+}
+
+.first-box-left > p{
+    padding-top: 40px;
+}
+
+.first-box-right {
     height: 400px;
     width: 70%;
     /* debug */
-    background-color: lightblue;
+    text-align: center;
+    color: white;
+    background-color: black;
 }
-/* /under-header */
+/* /FIRST SECTION */
 
 /* big section main */
 .container-main {
@@ -72,20 +120,24 @@ a {
 }
 
 .price-list {
-    height: 80px;
+    height: 100px;
     width: 100%;
     /* debug */
-    background-color: lightcoral;
-    border: 2px dashed black;
+    /* background-color: lightcoral; */
+    /* border: 2px dashed black; */
+}
+
+.price {
+    padding-top: 30px;
 }
 
 /* SECTION COLUMNS */
 .container-column {
-    height: 600px;
     width: 100%;
     justify-content: space-between;
     /* debug */
-    background-color: aqua;
+    /* height: 600px; */
+    /* background-color: aqua; */
 }
 
 .col-30 {
@@ -93,30 +145,52 @@ a {
     margin-top: 10px;
     margin-bottom: 10px;
     /* debug */
-    border: 1px dashed black;
+    border: 1px solid lightgrey;
 }
+
+.pdg-20 ul li span a {
+    color: blue; 
+    text-decoration: underline;
+  }
 /* /SECTION COLUMNS */
 
 /* TEAM */
 .team-box {
-    height: 300px;
+    margin-top: 50px;
     width: 100%;
     /* debug */
-    background-color: lightcoral;
+    /* height: 300px; */
+    /* background-color: lightcoral; */
 }
 
 .team-title{
-    height: 60px;
+    padding: 15px;
     width: 100%;
-    /* debug */
-    border: 2px dashed black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgrey;
 }
 
 .team-body {
-    height: 240px;
     width: 100%;
+    border: 1px solid lightgrey;
     /* debug */
-    border: 2px dashed black;
+    /* height: 240px; */
+}
+
+.team-body-left {
+    width: 60%;
+    /* debug */
+    /* height: 240px; */
+    /* background-color: lightcoral; */
+}
+
+.team-body-right {
+    width: 40%;
+    /* debug */
+    /* height: 240px; */
+    /* background-color: lightblue; */
 }
 
 /* /TEAM */
@@ -124,26 +198,26 @@ a {
 /* PARTNER */
 .partner-box {
     margin-top: 60px;
-    height: 500px;
     width: 100%;
     /* debug */
-    background-color: lightblue;
+     /* height: 500px; */
+    /* background-color: red; */
 }
 
 .partner-section-left {
-    height: 500px;
-    width: 70%;
+    width: 60%;
     /* debug */
-    background-color: lightcoral;
-    border: 2px dashed black;
+    /* height: 500px; */
+    /* background-color: lightcoral; */
+    /* border: 2px dashed black; */
 }
 
 .partner-section-right {
-    height: 500px;
-    width: 30%;
+    width: 40%;
     /* debug */
-    background-color: lightskyblue;
-    border: 2px dashed black;
+    /* height: 500px; */
+    /* background-color: lightskyblue; */
+    /* border: 2px dashed black; */
 }
 /* /PARTNER */
 
@@ -280,6 +354,63 @@ a {
 
 
 /* Utility */
+
 .flex {
     display: flex;
+}
+
+.btn-white{
+    background-color: white;
+
+    padding: 10px;
+    margin-top: 20px;
+
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 15px;
+}
+
+.btn-blue{
+    background-color: #0061ff;
+
+    padding: 10px;
+    margin-left: 10px;
+
+    color: white;
+    padding: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.column-title {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pdg-20 {
+    padding: 20px;
+}
+
+.pdg-20-70 {
+   padding: 20px 70px; 
+}
+
+.short {
+    margin: 10px;
+    width: 30%;
+}
+
+.blue {
+    color: #0061ff;
+    font-weight: 1000;
+}
+
+.mgt-20 {
+    margin-top: 20px;
+}
+
+.mg-40 {
+    margin-top: 60px;
 }

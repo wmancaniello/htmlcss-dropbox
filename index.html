@@ -6,6 +6,7 @@
     <title>DROPBOX</title>
     <!-- Link CSS -->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 
@@ -23,7 +24,23 @@
     <main>
         <!-- FIRST-SECTION -->
         <div class="first-container flex">
-            <div class="first-box"></div>
+            <div class="box-container">
+                <h1>
+                    Tutto ciò che ti serve per il lavoro, in un unico posto
+                </h1>
+
+                <div class="first-box flex">
+                    <div class="first-box-left">
+                        <p> Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili dallo stesso posto. <br>Dropbox Business è piu di uno spazio di archiviazione sicuro: è un modo intelligente e integrato per ottimizzare il flusso di lavoro esistente.</p>
+                        <button class="btn-blue">Inizia la tua prova gratuita</button>
+                        <p>Annulla in qualsiasi momento</p>
+                        <p>"icona freccia"</p>
+                    </div>
+                    <div class="first-box-right">
+                        FOTO<!-- <img src="./img/business-feature-coordinate-it.png" alt=""> -->
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- /FIRST-SECTION -->
 
@@ -31,28 +48,134 @@
 
         <div class="container-main flex">
             <div class="container-main2">
-                <div class="price-list"></div>
-                <!-- COLUMN -->
+                <div class="price-list">
+                    <h2>Trova il piano business che fa per te</h2>
+                    <div class="price">
+                        <input type="radio"><span>Fatturazione Mensile</span>
+                        <input type="radio"><span>Fatturazione Annuale</span>
+                    </div>
+                </div>
+                <!-- COLONNE -->
                 <div class="container-column flex">
-                    <div class="col-30"></div>
-                    <div class="col-30"></div>
-                    <div class="col-30"></div>
+
+                    <!-- COLONNA SINGOLO -->
+
+                    <div class="col-30">
+                        <span class="column-title flex"><i class="fa-solid fa-user"></i>Singolo</span>
+                        <hr>
+                        <div class="pdg-20">
+                            <h3>Professional</h3>
+                            <h5>€ 12.00</h5>
+                            <span>/mese</span>
+                            <ul class="">
+                                <li><span><i class="fa-solid fa-user"></i>1 utente</span></li>
+                                <li><span><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</span></li>
+                                <li><span><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e condivisione file semplice e sicura</span></li>
+                                <li><button class="btn-blue pdg-20">Prova gratis per 30 giorni</button></li>
+                                <li><span>oppure <a href="">acquista ora</a></span></li>
+                            </ul>
+                        </div>
+                        <hr class="short">
+                        <div class="pdg-20">
+                            <ul>
+                                <h5>Punti salienti del piano</h5>
+                                <li><i class="fa-solid fa-check blue"></i> Invia File fino a 100 GB con Dropbox Transfert</li>
+                                <li><i class="fa-solid fa-check blue"></i> Cartelle offline su dispositivi mobili</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- COLONNA TEAM -->
+
+                    <div class="col-30">
+                        <span class="column-title flex"><i class="fa-solid fa-users"></i>Team</span>
+                        <hr>
+                        <div class="pdg-20">
+                            <h3>Advanced</h3>
+                            <h5>€ 18.00</h5>
+                            <span>/utente/mese</span>
+                            <ul class="">
+                                <li><span><i class="fa-solid fa-users"></i> 3 o più utenti</span></li>
+                                <li><span><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui ha bisogno il tuo team</span></li>
+                                <li><span><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al sciuro tutti i file del tuo team</span></li>
+                                <li><button class="btn-blue pdg-20">Prova gratis per 30 giorni</button></li>
+                                <li><span>oppure <a href="">acquista ora</a></span></li>
+                            </ul>
+                        </div>
+                        <hr class="short">
+                        <div class="pdg-20">
+                            <ul>
+                                <h5>Punti salienti del piano</h5>
+                                <li><i class="fa-solid fa-check blue"></i> Nessun limite di spazio per i file</li>
+                                <li><i class="fa-solid fa-check blue "></i> Cartelle offline su dispositivi mobili</li>
+                                <li><i class="fa-solid fa-check blue"></i> Risparmio del 50% rispetto alle iscrizioni singole</li>
+                                <li><i class="fa-solid fa-check blue"></i> Possibilità di inserire nuovi membri del team</li>
+                                <li><i class="fa-solid fa-check blue"></i> gestione dei permessi in base ai ruoli</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- COLONNA AZIENDA -->
+
+                    <div class="col-30">
+                        <span class="column-title flex"><i class="fa-solid fa-building"></i>Azienda</span>
+                        <hr>
+                        <div class="pdg-20">
+                            <h3>Enterprise</h3>
+                            <h5>Contattaci</h5>
+                            <span>-</span>
+                            <ul>
+                                <li><span><i class="fa-solid fa-user"></i>10 o più utenti</span></li>
+                                <li><span><i class="fa-solid fa-folder"></i> Soluzioni personalizzabili per la tua azienda</span></li>
+                                <li><span><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli amministratori in una gestione su larga scala</span></li>
+                                <li><button class="btn-blue pdg-20-70">Contattaci</button></li>
+                                <li><span>oppure <a href="">acquista ora</a></span></li>
+                            </ul>
+                        </div>
+                        <hr class="short">
+                        <div class="pdg-20">
+                            <ul>
+                                <h5>Punti salienti del piano</h5>
+                                <li>Invia File fino a 100 GB con Dropbox Transfert</li>
+                                <li>Cartelle offline su dispositivi mobili</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <!-- /COLUMN -->
+
+
                 <!-- TEAM -->
                 <div class="team-box">
-                    <div class="team-title"></div>
-                    <div class="team-body"></div>
+                    <div class="team-title"><i class="fa-solid fa-building"> <span>Team</span></i></div>
+                    <div class="team-body flex">
+                        <div class="team-body-left pdg-20">
+                            <h3>Enterprise</h3>
+                            <h5 class="mg-20">Contatta l'ufficio vendite per i prezzi</h5>
+                            <p class="mg-40">Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su qualsiasi scala.</p>
+                        </div>
+                        <div class="team-body-right">
+                            <button class="btn-blue pdg-20-70">Contatta l'ufficio vendite</button>
+                        </div>
+                    </div>
                 </div>
                 <!-- /TEAM -->
+
+
                 <!-- PARTNER -->
                 <div class="partner-box flex ">
-                    <div class="partner-section-left"></div>
-                    <div class="partner-section-right"></div>
+                    <div class="partner-section-left">
+                        <img src="./img/partner.png" alt="">
+                    </div>
+                    <div class="partner-section-right pdg-20 mg-20">
+                        <h3>Entra in contatto con un partner Dropbox</h3>
+                        <p class="mgt-20">Trova un patner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui implementazione, integrazione, gestione e supporto continui.</p>
+                        <button class="btn-white mg-20">Trova un partner</button>
+                    </div>
                 </div>
                 <!-- /PARTNER -->
                 <!-- BUSINESS -->
-                <h1 class="title-business">Esegui più operazioni con Dropbox Business</h1>
+                <h2 class="title-business">Esegui più operazioni con Dropbox Business</h2>
                 <!-- column -->
                 <div class="business-box flex">
                     <div class="col-30-business">col1</div>
