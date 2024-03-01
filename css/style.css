@@ -120,12 +120,12 @@ li{
 
 /* big section main */
 .container-main {
-    min-height: auto;
     width: 100%;
     justify-content: center;
     padding-top: 80px;
     /* debug */
-    background-color: lightgreen;
+    /* min-height: auto; */
+    /* background-color: lightgreen; */
 }
 
 .container-main2{
@@ -245,28 +245,37 @@ li{
 }
 
 .business-box {
-    height: 900px;
     width: 100%;
     flex-wrap: wrap;
     justify-content: space-between;
     /* debug */
-    background-color: aqua;
+    /* height: 900px; */
+    /* background-color: aqua; */
 }
 
 .col-30-business {
     width: calc(100% / 3);
-    padding: 30px;
+    padding: 20px;
     /* debug */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .discovery-clients {
-    height: 250px;
+    
     width: 60%;
     margin-top: 50px;
+    flex-direction: column;
+    gap: 50px;
+    padding-bottom: 100px;
     /* debug */
-    background-color: lightcoral;
+    /* height: 250px; */
+    /* background-color: lightcoral; */
 }
+
+.discovery-clients a {
+    color: blue; 
+    text-decoration: underline;
+  }
 /* /BUSINESS */
 /* /big section main */
 
@@ -275,21 +284,42 @@ li{
 /* designit */
 .container-designit {
     justify-content: center;
-    padding-top: 20px;
     /* debug */
     background-color: green;
 }
 .designit {
-    height: 500px;
-    width: 95%;
+    width: 100%;
     /* debug */
-    background-color: lightskyblue;
+    /* height: 500px; */
+    /* background-color: lightskyblue; */
 }
 
-.box-30 {
+.box-30-left,
+.box-30-right {
     width: calc(100% / 3);
     /* debug */
     border: 1px dashed black;
+}
+
+.box-section {
+    width: 25%;
+    padding: 10px;
+    flex-wrap: wrap;
+    /* debug */
+    background-color: red;
+    border: 5px solid black;
+}
+
+.box-30-middle {
+    width: calc(100% / 3);
+    flex-direction: column;
+    padding: 40px;
+    /* debug */
+    /* border: 1px dashed black; */
+}
+
+.box-30-middle img {
+    width: 50%;
 }
 /* /designit */
 
