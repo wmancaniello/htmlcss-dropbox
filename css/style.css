@@ -12,8 +12,13 @@ main {
     margin-top: 80px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 img {
@@ -30,6 +35,16 @@ h2 {
 
 ul {
     list-style-type: none;
+}
+
+ul li {
+    display: flex;
+    gap: 5px;
+}
+
+ul li span {
+    display: flex;
+    gap: 5px;
 }
 
 li{
@@ -50,6 +65,10 @@ li{
     /* debug */
     /* background-color: greenyellow; */
     /* height: 60px; */
+}
+
+.container-header a {
+    color: black;
 }
 
 .left-header {
@@ -109,12 +128,15 @@ li{
 }
 
 .first-box-right {
-    height: 400px;
-    width: 70%;
+    width: 80%;
     /* debug */
-    text-align: center;
-    color: white;
-    background-color: black;
+    /* height: 400px; */
+    /* background-color: black; */
+}
+
+.first-box-right img {
+    width: 40%;
+    position: absolute;
 }
 /* /FIRST SECTION */
 
@@ -145,6 +167,7 @@ li{
 
 .price {
     padding-top: 30px;
+    gap: 20px;
 }
 
 /* SECTION COLUMNS */
@@ -283,9 +306,8 @@ li{
 
 /* designit */
 .container-designit {
-    justify-content: center;
     /* debug */
-    background-color: green;
+    background-color: #F5F5F5;
 }
 .designit {
     width: 100%;
@@ -297,23 +319,38 @@ li{
 .box-30-left,
 .box-30-right {
     width: calc(100% / 3);
+    flex-wrap: wrap;
     /* debug */
-    border: 1px dashed black;
+    /* border: 1px dashed black; */
 }
 
 .box-section {
-    width: 25%;
-    padding: 10px;
-    flex-wrap: wrap;
+    width: 50%;
+    justify-content: center;
+    padding: 10px 0;
+    /* debug */
+    background-color: blue;
+    /* border: 5px solid black; */
+}
+
+.box-inside {
+    width: 80%;
+    justify-content: center;
     /* debug */
     background-color: red;
-    border: 5px solid black;
+}
+
+.box-inside img {
+    width: 50%;
+    filter: invert(100%);
 }
 
 .box-30-middle {
+    max-height: 500px;
     width: calc(100% / 3);
     flex-direction: column;
     padding: 40px;
+    overflow-y: auto;
     /* debug */
     /* border: 1px dashed black; */
 }
@@ -321,51 +358,82 @@ li{
 .box-30-middle img {
     width: 50%;
 }
+
+/* background-color of the box */
+.bg-green {
+
+}
+
+.bg-lightgreen{
+
+}
+
+.bg-azure {
+
+}
+
+.bg-dark-blue {
+
+}
+
+.bg-yellow {
+
+}
+
+.bg-lightblue {
+
+}
 /* /designit */
 
 /* company */
 .company-box {
-    height: 300px;
+    padding: 100px 0;
     width: 100%;
     justify-content: center;
     align-items: center;
     /* debug */
-    background-color: lightblue;
+    background-color: #B4D0E7;
 }
 
 .company-section-left {
-    height: 200px;
-    width: 50%;
+    width: 20%;
     /* debug */
-    background-color: lightcoral;
-    border: 2px dashed black;
+    /* background-color: lightcoral; */
+    /* border: 2px dashed black; */
 }
 
 .company-section-right {
-    height: 200px;
-    width: 20%;
+    width: 30%;
+    justify-content: right;
     /* debug */
-    background-color: lightskyblue;
-    border: 2px dashed black;
+    /* height: 200px; */
+    /* background-color: lightskyblue; */
+    /* border: 2px dashed black; */
 }
 /* /company */
 
-/* answer */
+/* ANSWER */
 .answer-box {
-    height: 500px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     width: 100%;
     justify-content: center;
     align-items: center;
     /* debug */
-    background-color: blueviolet;
+    /* height: 500px; */
+    /* background-color: blueviolet; */
 }
 
 .answer-section {
-    height: 400px;
-    width: 70%;
+    width: 52%;
     /* debug */
-    background-color: crimson;
-    border: 2px dashed white;
+    /* height: 400px; */
+    /* background-color: crimson; */
+    /* border: 2px dashed white; */
+}
+
+.answer-section ul li {
+    font-weight: bold;
 }
 /* /answer */
 /* /THIRD SECTION */
@@ -399,6 +467,10 @@ li{
     /* margin: 5px; */
     /* border: 2px solid red; */
 }
+
+.col-footer ul.white a {
+    color: white;
+}
 /* /FOOTER */
 
 
@@ -406,6 +478,12 @@ li{
 
 .flex {
     display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
 .btn-white{
@@ -460,10 +538,41 @@ li{
     color: white;
 }
 
+.grey {
+    color: grey;
+}
+
+.dark-violet {
+    color: #631135
+}
+
+.bor-black{
+    border-color: black;
+}
+.black {
+    color: black;
+}
+
 .mgt-20 {
     margin-top: 20px;
 }
 
+.mgt-30 {
+    margin-top: 30px;
+}
+
 .mgt-40 {
     margin-top: 60px;
+}
+
+.mgt-100 {
+    margin-top: 100px;
+}
+
+.mgl-300 {
+    margin-left: 300px;
+}
+
+.big-size {
+    font-size: 2rem;
 }
