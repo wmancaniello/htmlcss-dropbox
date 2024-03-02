@@ -129,13 +129,14 @@ li{
 
 .first-box-right {
     width: 80%;
+    padding-top: 40px;
     /* debug */
     /* height: 400px; */
     /* background-color: black; */
 }
 
 .first-box-right img {
-    width: 40%;
+    width: 35%;
     position: absolute;
 }
 /* /FIRST SECTION */
