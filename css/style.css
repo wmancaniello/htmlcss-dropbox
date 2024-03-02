@@ -525,7 +525,11 @@ li{
 }
 
 .short {
-    margin: 10px;
+    margin: 20px;
+    width: 30%;
+}
+
+.short-hr {
     width: 30%;
 }
 
