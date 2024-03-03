@@ -306,84 +306,122 @@ li{
 /* THIRD SECTION */
 
 /* designit */
-.container-designit {
+/* CONTAINER PRINCIPALE */
+
+.container-card {
     /* debug */
-    background-color: #F5F5F5;
-}
-.designit {
-    width: 100%;
-    /* debug */
-    /* height: 500px; */
-    /* background-color: lightskyblue; */
+    height: 600px;
+    /* width: 100%; */
 }
 
-.box-30-left,
-.box-30-right {
+/* LEFT and RIGHT */
+
+.container-left,
+.container-right {
     width: calc(100% / 3);
-    flex-wrap: wrap;
-    /* debug */
-    /* border: 1px dashed black; */
+    /* background-color: blue; */
+    /* border: 2px solid black; */
 }
 
-.box-section {
-    width: 50%;
-    justify-content: center;
-    padding: 10px 0;
-    /* debug */
-    background-color: blue;
-    /* border: 5px solid black; */
-}
-
-.box-inside {
-    width: 80%;
-    justify-content: center;
-    /* debug */
-    background-color: red;
-}
-
-.box-inside img {
-    width: 50%;
+.container-left .card img {
     filter: invert(100%);
+    max-width: 50%;
 }
 
-.box-30-middle {
-    max-height: 500px;
+.container-right .card img {
+    filter: invert(100%);
+    max-width: 50%;
+}
+
+.designit-box {
+    justify-content: center;
+    align-items: center;
+
+    /* height: 300px; */
+    width: 90%;
+    height: 90%;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 300px;
+    width: 50%;
+    /* debug */
+    /* background-color: yellow; */
+    /* border: 2px solid black; */
+}
+
+/* CONTAINER MIDDLE */
+
+.container-middle {
+    /* max-height: 500px; */
     width: calc(100% / 3);
     flex-direction: column;
     padding: 40px;
     overflow-y: auto;
+    background-color: #F5F5F5;
     /* debug */
     /* border: 1px dashed black; */
 }
 
-.box-30-middle img {
+.container-middle img {
     width: 50%;
 }
 
-/* background-color of the box */
+
+
+/* UTILITY */
+
+.mgt-50 {
+    margin-top: 50px;
+}
+
+.mgt-250 {
+    margin-top: 250px;
+}
+
+
+.bg-lightgreen {
+    background-color: #D1E9CD;
+}
+
 .bg-green {
-
+    background-color: #A2D39B;
 }
 
-.bg-lightgreen{
-
+.bg-bordeaux {
+    background-color: #61082B;
 }
 
-.bg-azure {
-
+.bg-blue {
+    background-color: #0093CE;
 }
 
-.bg-dark-blue {
-
+.bg-lightred {
+    background-color: #FF1C1C;
 }
 
-.bg-yellow {
+.bg-darkred {
+    background-color: #D5001F;
+}
 
+.bg-darkblue {
+    background-color: #0D2481;
 }
 
 .bg-lightblue {
-
+    background-color: #B4D0E7;
 }
+
+.bg-yellow {
+    background-color: #FFD830;
+}
+
 /* /designit */
 
 /* company */
